@@ -2,6 +2,7 @@
     margin:0;padding:0;
 }
 body{
+    width: 1520px;
     height: 822px;
     font-family:arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
 }
@@ -102,10 +103,10 @@ button{
     background-color: #f56600;
     color:#fff;
     border:none;
-    font-size:20px;
+    font-size:17px;
 }
 .account{
-    font-size:15px;
+    font-size:14px;
     width: 340px;
     height: 12px;
     margin-top:15px;
@@ -138,7 +139,7 @@ button{
 }
 .word p{
     height: 13px;
-    width: 80px;
+    width: 96px;
     margin:-10px auto 0px;
     background-color: #fff;
     color:#bbb;

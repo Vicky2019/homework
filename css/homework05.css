@@ -91,7 +91,11 @@ li{
 }
 .tab a{
     display:inline-block;
-    margin:30px 10px 20px 10px;
+    margin:18px 10px 20px 10px;
+}
+.tab-right{
+    float:left;
+    width: 307px;
 }
 .box{
     height: 170px;
@@ -216,7 +220,7 @@ li{
 .number{
     color:#393b3f;
     float:left;
-    margin:10px 38px;
+    margin:7px 38px;
 }
 .number a{
     margin-right:11px;
@@ -224,6 +228,9 @@ li{
 }
 .number a:hover{
     color:#feb02c;
+}
+.num-two{
+    border-bottom:2px solid #feb02c;
 }
 .number .tail{
     margin-right:0;
