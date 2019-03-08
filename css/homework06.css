@@ -2,7 +2,6 @@
     margin:0;padding:0;
 }
 body{
-    width: 1520px;
     height: 822px;
     font-family:arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
 }
@@ -38,7 +37,7 @@ a{
     font-size:11px;
 }
 .banner{
-    height: 589px;
+    height: 555px;
     background-color: #f7f7ff;
     margin-bottom:104px;
     position:relative;
@@ -46,90 +45,94 @@ a{
 .picture{
     background:url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg');
     width: 1402px;
-    height: 589px;
+    height: 555px;
     margin-left:-520px;
 }
-.login{
-    width: 342px;
-    height: 459px;
+
+.form{
+    text-align: center;
+    height: 463px;
+    width:348px;
     position:absolute;
-    right:190px;
-    bottom:32px;
+    right:195px;
+    bottom:0px;
     background-color: #fff;
-    padding:33px;
+    padding:30px 30px;
 }
-.lo-top{
-    height: 29px;
-    width: 337px;
-    position:relative;
+.nav p{
+  display :inline;
+  font-size:20px;
+  border:1px solid #ccc;
+  margin:0 10px 0 2px;
+}
+.nav span{
+    width: 156px;
+    text-align: center;
+    cursor: pointer;
+}
+.active{
+    color:orangered;  
+}
+.nav{
     font-size:23px;
-    margin:0 auto 35px;
+    margin-bottom:38px;
+    color:#6e6e6e;
 }
-.lo-top .log{
-    color:#333;
+.form-content{
+    position: relative;
+    height:300px;
+}
+.form-content>div{
     position: absolute;
-    left:213px;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
 }
- .lo-top a{
-     cursor:pointer;
-     color:#f56600;
-     position:absolute;
-     left:29px;
-     top:1px;
-}
-.lo-top span{
-    position:absolute;
-    right:166px;
-    font-size:29px;
-    color:#ccc;
-}
-form{
-    width: 340px;
-    height: 188px;
-    color:#999;
-}   
-form input{
-    height: 50px;
-    width: 340px;
-    margin-bottom:16px;
+input{
+    width:320px;
+    height:18px;
+    margin-bottom:18px;
+    padding:14px;
     border:1px solid #e0e0e0;
-    padding-left:5px;
-    font-size:15px;
+    color:#9d9d9d;
+    font-size:14px;
 }
 button{
-    margin-top:9px;
+    width: 350px;
     height: 50px;
-    width: 340px;
-    background-color: #f56600;
-    color:#fff;
+    background: #ff6700;
     border:none;
-    font-size:17px;
+    color:white;
 }
-.account{
+.account h6{
+    font-size:16px;
+}
+.login{
     font-size:14px;
-    width: 340px;
+    width: 350px;
     height: 12px;
-    margin-top:15px;
+    margin-top:10px;
 }
-.account a{
+.login a{
     color:#f56600;
     float:left;
 }
-.account .ac-right a{
+.login .lo-right a{
    color: #999;
 }
-.ac-right{
+.lo-right{
     float:right;
 }
-.ac-right span{
+.lo-right span{
     color:#ccc;
     margin:0 5px;
 }
-.ac-right .ac-rone{
+.lo-right .lo-rone{
     float:right;
 }
 .other{
-    width: 337px;
+    width: 348px;
     height: 54px;
     color:#e0e0e0;
     margin-top:126px;
@@ -146,11 +149,6 @@ button{
 }
 .word hr{
     border-top:1px solid #e0e0e0;   
-}
-.form{
-        margin:20px auto 0;
-        width:365px;
-        text-align: center;
 }
 .other a,span{
     display: inline-block;
@@ -170,7 +168,20 @@ button{
     top:0;left:0;bottom:0;right:0;
 }
 .ot-left{
-    margin-left:42px;
+    margin-left:21px;
+}
+.saomiao{
+    display: none;
+    margin-top:91px;
+}
+.saomiao img{
+    margin-bottom:23px;
+}
+.saomiao p{
+    font-size:14px;
+}
+.saomiao span{
+    color:#ff6700;
 }
 .language{
    margin:0 auto;

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,52 +21,68 @@
         </div>
     </div>
     <div class="banner">
-        <a href="https://www.mi.com/mi9/"><div class="picture"></div></a>
-        <div class="login">
-            <div class="lo-top">
-                <a href="">账号登录</a>
-                <span>|</span>
-                <a class="log" href="">扫码登录</a>
+        <a href="https://www.mi.com/mi9/">
+            <div class="picture"></div>
+        </a>
+        <div class="form">
+            <div class="nav">
+                <span class="active">账号登录</span>
+                <p></p>
+                <span>扫码登录</span>
             </div>
-            <form action="">
-                <input class="id" type="text" placeholder="邮箱/手机号/小米账号">
-                <input class="password" type="password" placeholder="密码">
-                <button>登录</button>
-            </form>
-            <div class="account">
-                <a href="">手机短信登录注册</a>
-                <div class="ac-right">
-                    <a href="">注册小米账号</a>
-                    <span>|</span>
-                    <a class="ac-rone" href="">忘记密码?</a>
+            <div class="form-content">
+                <div class="account">
+                    <p><input type="text" placeholder="邮箱/手机号码/小米ID"></p>
+                    <p><input type="password" placeholder="密码"></p>
+                    <button>
+                        <h6>登录</h6>
+                    </button>
+                    <div class="login">
+                        <a href="">手机短信登录/注册</a>
+                        <div class="lo-right">
+                            <a href="">注册小米账号</a>
+                            <span>|</span>
+                            <a class="lo-rone" href="">忘记密码?</a>
+                        </div>
+                    </div>
+                    <div class="other">
+                        <div class="word">
+                            <hr />
+                            <p>其他方式登录</p>
+                        </div>
+                        <a class="ot-left" href="#"><span><img class="qq" src="../images/qq .png" alt=""></span></a>
+                        <a href="#"><span><img class="weibo" src="../images/微博 .png" alt=""></span></a>
+                        <a href="#"><span><img class="zhifu" src="../images/支付宝 .png" alt=""></span></a>
+                        <a href="#"><span><img class="weixin" src="../images/微信 .png" alt=""></span></a>
+                    </div>
                 </div>
-            </div>
-            <div class="other">
-                <div class="word">
-                    <hr />
-                    <p>其他方式登录</p>
+                <div class="saomiao">
+                    <img src="../images/erwei.png" alt="">
+                    <p>使用<span>小米商城APP</span>扫一扫</p>
+                    <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
                 </div>
-                <a class="ot-left" href="#"><span><img class="qq" src="../images/qq .png" alt=""></span></a>
-                <a href="#"><span><img class="weibo" src="../images/微博 .png" alt=""></span></a>
-                <a href="#"><span><img class="zhifu" src="../images/支付宝 .png" alt=""></span></a>
-                <a href="#"><span><img class="weixin" src="../images/微信 .png" alt=""></span></a>
             </div>
         </div>
+        <script>
+            $(".nav span").click(function () {
+                $(this).addClass("active").siblings().removeClass("active");
+                console.log($(this).index());
+                $(".form-content>div").eq($(this).index()==2).show().siblings().hide()
+            })
+        </script>
     </div>
     <div class="bottom">
         <div class="language">
-                <a class="la-click" href="">简体<span>|</span></a>
-                <a href="">繁体<span>|</span></a>
-                <a href="">English<span>|</span></a>
-                <a href="">常见问题<span>|</span></a>
-                <a href="">隐私政策</a>
+            <a class="la-click" href="">简体<span>|</span></a>
+            <a href="">繁体<span>|</span></a>
+            <a href="">English<span>|</span></a>
+            <a href="">常见问题<span>|</span></a>
+            <a href="">隐私政策</a>
         </div>
-        <!-- <script>
-            $("a").click(function(){
-                $(this).addClass('la-click').siblings().removeClass('la-click')
-            })
-        </script> -->
-        <p>小米公司版权所有 - 北京ICP备10046444号 -<span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png" alt=""></span>  北京公安ICP-11010802020134 - 北京ICP备案号 - 110507</p>
+        <p>小米公司版权所有 - 北京ICP备10046444号 -<span><img
+                    src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"
+                    alt=""></span> 北京公安ICP-11010802020134 - 北京ICP备案号 - 110507</p>
     </div>
 </body>
+
 </html>
