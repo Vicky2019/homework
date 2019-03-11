@@ -51,19 +51,19 @@ a{
 
 .form{
     text-align: center;
-    height: 463px;
+    height: 469px;
     width:348px;
     position:absolute;
     right:195px;
     bottom:0px;
     background-color: #fff;
-    padding:30px 30px;
+    padding:27px 30px;
 }
 .nav p{
   display :inline;
-  font-size:20px;
+  font-size:24px;
   border:1px solid #ccc;
-  margin:0 10px 0 2px;
+  margin:0 12px 0 5px;
 }
 .nav span{
     width: 156px;
@@ -74,8 +74,8 @@ a{
     color:orangered;  
 }
 .nav{
-    font-size:23px;
-    margin-bottom:38px;
+    font-size:24px;
+    margin-bottom:34px;
     color:#6e6e6e;
 }
 .form-content{
