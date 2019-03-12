@@ -1,0 +1,215 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    height: 822px;
+    font-family:arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    height: 98px;
+}
+.inner{
+    width: 1130px;
+    height: 98px;
+    margin:0 auto;
+}
+.inner img{
+    background-coloR:#f56600;
+    line-height:98px;
+    margin:25px 22px 25px 0;
+    float:left;
+}
+.inner ul{
+    float:left;
+    margin:19px 0;
+}
+.inner li{
+    font-size:32px;
+}
+.inner .in-li{
+    font-weight:normal;
+    font-size:11px;
+}
+.banner{
+    height: 555px;
+    background-color: #f7f7ff;
+    margin-bottom:104px;
+    position:relative;
+}
+.picture{
+    background:url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg');
+    width: 1402px;
+    height: 555px;
+    margin-left:-520px;
+}
+
+.form{
+    text-align: center;
+    height: 469px;
+    width:348px;
+    position:absolute;
+    right:195px;
+    bottom:0px;
+    background-color: #fff;
+    padding:27px 30px;
+}
+.nav p{
+  display :inline;
+  font-size:24px;
+  border:1px solid #ccc;
+  margin:0 12px 0 5px;
+}
+.nav span{
+    width: 156px;
+    text-align: center;
+    cursor: pointer;
+}
+.active{
+    color:orangered;  
+}
+.nav{
+    font-size:24px;
+    margin-bottom:34px;
+    color:#6e6e6e;
+}
+.form-content{
+    position: relative;
+    height:300px;
+}
+.form-content>div{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+input{
+    width:320px;
+    height:18px;
+    margin-bottom:18px;
+    padding:14px;
+    border:1px solid #e0e0e0;
+    color:#a4a4a4;
+    font-size:14px;
+    outline:none;
+    font-family:arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+button{
+    width: 350px;
+    height: 50px;
+    background: #ff6700;
+    border:none;
+    color:white;
+    margin-top:10px;
+    outline:none;
+}
+button:hover{
+    cursor:pointer;
+}
+.account h6{
+    font-size:16px;
+}
+.login{
+    font-size:14px;
+    width: 350px;
+    height: 12px;
+    margin-top:10px;
+}
+.login a{
+    color:#f56600;
+    float:left;
+}
+.login .lo-right a{
+   color: #999;
+}
+.login a:hover{
+    cursor:pointer;
+    color:#f56600;
+}
+.lo-right{
+    float:right;
+}
+.lo-right span{
+    color:#ccc;
+    margin:0 5px;
+}
+.lo-right .lo-rone{
+    float:right;
+}
+.other{
+    width: 348px;
+    height: 54px;
+    color:#e0e0e0;
+    margin-top:126px;
+}
+.word{
+    margin-bottom:10px;
+}
+.word p{
+    height: 13px;
+    width: 96px;
+    margin:-10px auto 0px;
+    background-color: #fff;
+    color:#bbb;
+}
+.word hr{
+    border-top:1px solid #e0e0e0;   
+}
+.other a,span{
+    display: inline-block;
+}
+.other a{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    margin-right:30px;
+    position:relative;
+}
+.other span{
+    width:18px;
+    height:18px;
+    position: absolute;
+    margin:auto;
+    top:0;left:0;bottom:0;right:0;
+}
+.ot-left{
+    margin-left:21px;
+}
+.saomiao{
+    display: none;
+    margin-top:91px;
+}
+.saomiao img{
+    margin-bottom:23px;
+}
+.saomiao p{
+    font-size:14px;
+}
+.saomiao span{
+    color:#ff6700;
+}
+.language{
+   margin:0 auto;
+   width: 379px;
+   height: 18px;
+}
+.language span{
+    margin:0 12px;
+}
+.language a,p{
+    color:#999;
+}
+.bottom p{
+    height: 16px;
+    width: 745px;
+    margin:10px auto 30px;
+}
+.language .la-click{
+    color:#333;
+}
