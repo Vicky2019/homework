@@ -259,6 +259,9 @@ font-style:normal;
     .containnerTwo .banner img{
         width: 100%;
     }
+    .containnerTwo .con-inner .adress img{
+        width: 100%;
+    }
 }
 @media(min-width:992px){
     .contact div,span{
